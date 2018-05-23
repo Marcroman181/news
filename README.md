@@ -47,11 +47,17 @@
 #	Desarrollo de la página web
 ## V1.1
 - Realización de la estructura de la web:
-    **Barra de navegación**: Realización de la barra de navegación mediante la ayuda de clases de bootstrap
+   **Barra de navegación**: Realización de la barra de navegación mediante la ayuda de clases de bootstrap.
+   **Logo de la web**: Se ha colocado un fondo de color en lugar del logo. Más adelante será sustituido por el logo.
+    
 ## V1.2
-- La barra de navegación tiene una botonera de iniciar sesión en la parte derecha de esta.
+ - Contenedor de noticias: Desarrollo de la realización de la estructura del contenedor mediante las clases de bootstrap container para contener todas las noticias, row para realizar cada una de las filas de noticias y col-sm-6 para dividir las noticias de 2 en 2.
+ - Anuncios: He añadido un cálculo para que la noticia ocupe todo el ancho menos el ancho del anuncio (336 px) en la pantalla horizontal.
+   
 ## V1.3
-- La barra de navegación ahora hace un efecto de reducir su tamaña (incluyendo el logo) al hacer scroll hacia abajo.
+ - Contenedor de noticias: Se ha añadido una noticia "ejemplo" para darle estructura al contenedor de noticias. Se ha usado la clase thumbnail de bootstrap para realizar un marco para cada noticia, la clase img-responsive para las fotos de las noticias, text-left para el título, text-center para la descripción y text-right para la fecha.
+ - Anuncios: Se ha añadido un fondo negro para representar los anuncios, tanto para el horizontal como el vertical.  
+   
 ## V1.4
 - Se ha introducido el widget de twitter con las noticias de warcraft oficial en el lateral derecho, debajo de la publicidad.
 ## V1.5 
