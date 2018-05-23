@@ -79,9 +79,19 @@
  - Realización e implementación de las páginas de web de anunciantes tanto horizontal como vertical. Simplemente, contienen una imagen con un enlace y el tamaño adecuado y se cambian cada 5 segundos.
  - Realización del archivo rss.xml.
 ## V2.0
+ - Realización de la adaptación de las imagenes a dos tamaños adecuados: 
+  
+   **imgmid:** Para mostrar las imagenes en la página principal.
+   
+   **imgbig:** Para mostrar las imagenes en un tamaño mayor en una ventana modal.
+   
+ - Pasadas las imagenes a través de un compresor de imagenes para optimizar el tamaño. 
+ - Añadido las etiquetas open graph correspondientes para compartir la página web.
+   
+## V2.1
  - Implementación de una ventana modal para visualizar las imagenes de las noticias al pulsar sobre ellas. La ventana modal contiene un pequeño evento en javascript que al pulsar la imagen de una noticia, leemos su ID y sabiendo su ID cargamos su imagen de tamaño mayor.
  
-## V2.1
+## V2.2
  - Añadida información al usuario de que no hay más noticias disponibles.
  
  
