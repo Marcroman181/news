@@ -2,7 +2,7 @@
 
 **Autor: Marc Antoni Román Martínez**
 
-[Link de la página de noticias](https://rawgit.com/Marcroman181/news/master/news.html)
+[Link de la página de noticias minimificado](https://rawgit.com/Marcroman181/news/minimified/news.html)
 
 **Este repositorio contiene una branch con todo el codigo minimificado**
 
