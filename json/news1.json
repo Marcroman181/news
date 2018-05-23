@@ -1,0 +1,16 @@
+[
+      {
+        "title": "Un empate con sabor continental",
+        "imgbig": "img/imgbig/news4.jpg",
+        "imgmid": "img/imgmid/news4.jpg",
+        "description": "Un derbi sin vencedores ni vencidos tal vez pueda parecer menos derbi. Pero lo cierto es que Betis y Sevilla, con su empate a dos, ofrecieron un partido emocionante, intenso, de alternativas, y con una tensión que se podía prácticamente cortar en el ambiente. Un duelo por todo lo alto, con el Viejo Continente en el horizonte, donde ambos jugarán la próxima temporada.",
+        "datetime": "12/5/2018 | 14:00"
+      },
+      {
+        "title": "Un golazo de Vietto lleva al Valencia CF hasta los 70 puntos.",
+        "imgbig": "img/imgbig/news5.jpg",
+        "imgmid": "img/imgmid/news5.jpg",
+        "description":"El Valencia CF recuperó el sabor de la victoria en el último desplazamiento de la temporada gracias a un golazo de Vietto. Sí, Luciano Vietto. No marcaba desde el pasado Derbi, tres meses los que han trascurrido entre el 11 de febrero y el 12 de mayo en los que Marcelino y Alemany reunieron argumentos suficientes para no ejercer la opción de fichar al argentino de cara a la próxima temporada.",
+        "datetime": "12/5/2018 | 16:00"
+      }
+]

@@ -1,0 +1,32 @@
+<!DOCTYPE htmL>
+<html lang="es" style="height: 100px; width: 320px; margin: 0; padding: 0;">
+    <head>
+        <meta charset="utf-8">
+        <title>Adds</title>
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            var addToShow = 3;
+            var interval;
+            $(document).ready(function(){
+				interval = setInterval(showAdds, 5000);    
+            });
+            function showAdds() {
+				if (addToShow == 5) {
+					addToShow = 3;
+				} else {
+					addToShow ++;
+				}
+				$("#imgAdd").attr("src", "img/adds/" + addToShow + ".jpg");   
+            };
+        </script>
+    </head>
+
+    <body style="height: 100px; width: 320px; margin: 0; padding: 0;">
+        <div style="height: 100px; width: 320px;">
+            <a href="adds-movil.html" target="_blank">  
+                <img id="imgAdd" src="img/adds/3.jpg" alt="Add" style="height: 100px; width: 320px;"/>
+            </a>
+        </div>
+    </body>
+</html>

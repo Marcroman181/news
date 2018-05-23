@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+	<channel>
+		<title>FutNews - Diario online de fútbol balear</title>
+		<link>https://rawgit.com/Marcroman181/news/master/news.html</link>
+		<description>Noticias, resultados y estadisticas de futbol</description>
+
+		<item>
+			<title>Messi sella una Liga incontestable</title>
+			<link>https://rawgit.com/Marcroman181/news/master/news1.html</link>
+			<description>
+				El Barcelona conquistó la Liga de forma incontestable, sin lamentar una sola derrota. Con Messi estelar, sellando el título y media Bota de Oro gracias a un triplete definitivo. En Riazor y durante toda la temporada, el 10 y todo el bloque azulgrana fueron muy superiores a su rival, enviando al Dépor a Segunda.
+			</description>
+
+		<item>
+			<title>El Real Madrid se clasifica en la final de la Champions League</title>
+			<link>https://rawgit.com/Marcroman181/news/master/news2.html</link>
+			<description>
+				El Real Madrid jugará por tercer año consecutivo la final de la Liga de Campeones después de empatar a dos goles en la vuelta de las semifinales con un Bayern de Múnich superior también en la vuelta de este martes en el Santiago Bernabéu, donde sometió a un asedio continuo al actual campeón, agarrado a su instinto de supervivencia y a la buena noche de Keylor Navas y Karim Benzema.
+			</description>
+		</item>
+	</channel>
+
+</rss>
