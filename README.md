@@ -47,17 +47,51 @@
 #	Desarrollo de la página web
 ## V1.1
 - Realización de la estructura de la web:
-    **Barra de navegación**: Realización de la barra de navegación mediante la ayuda de clases de bootstrap
+
+   **Barra de navegación**: Realización de la barra de navegación mediante la ayuda de clases de bootstrap.
+   
+   **Logo de la web**: Se ha colocado un fondo de color en lugar del logo. Más adelante será sustituido por el logo.
+    
 ## V1.2
-- La barra de navegación tiene una botonera de iniciar sesión en la parte derecha de esta.
+ - Contenedor de noticias: Desarrollo de la realización de la estructura del contenedor mediante las clases de bootstrap container para contener todas las noticias, row para realizar cada una de las filas de noticias y col-sm-6 para dividir las noticias de 2 en 2.
+ - Anuncios: He añadido un cálculo para que la noticia ocupe todo el ancho menos el ancho del anuncio (336 px) en la pantalla horizontal.
+   
 ## V1.3
-- La barra de navegación ahora hace un efecto de reducir su tamaña (incluyendo el logo) al hacer scroll hacia abajo.
+ - Contenedor de noticias: Se ha añadido una noticia "ejemplo" para darle estructura al contenedor de noticias. Se ha usado la clase thumbnail de bootstrap para realizar un marco para cada noticia, la clase img-responsive para las fotos de las noticias, text-left para el título, text-center para la descripción y text-right para la fecha.
+ - Anuncios: Se ha añadido un fondo negro para representar los anuncios, tanto para el horizontal como el vertical.  
+   
 ## V1.4
-- Se ha introducido el widget de twitter con las noticias de warcraft oficial en el lateral derecho, debajo de la publicidad.
+ - Realización de un json ejemplo con dos noticias con los siguientes campos: title, description, datetime, imgmid y imgbig. 
 ## V1.5 
-- Se ha eliminado el Banner, la barra se ha introducido en la parte superior, en esa barra en la parte izquierda he añadido el logo.
-- Se ha añadido un carrusel de imágenes justo después de la barra.  
+ - Desarrollo de un evento que cargue en el html una noticia cogida desde el json: Para realizar esto lo que hacemos es cada vez que se realice scroll (evento de scroll) se comprueba si el scroll + la altura de la ventana es igual o mayor a la altura del documento. En caso afirmativo, se ejecuta la lectura del json y la carga de la noticia. 
+ - La carga se hace de 2 en 2. Primero creamos un div con una row introducida al contenedor de noticias, y seguidamente con los datos leidos del json creamos las dos noticias dentro de la fila. 
 ## V1.6
-
-
-
+ - Añadido un botón para cargar noticias.
+ - Corregido un error para cargar solamente un json y no muchos a la vez. Se ha solucionado mediante un booleano que lo desactivamos mientras estamos cargando una noticia y lo activamos al acabar de cargar.
+ - Añadido botón para activar el scroll o desactivarlo.
+## V1.7 
+ - Añadida una pantalla de carga mientras el usuario está cargando noticias. 
+ - Realización e implementación de noticias reales y diferentes, tanto en el html como en los diferentes json.
+## V1.8
+ - Añadido iconos en los menús deplegables de la barra de navegación.
+ - Realización de las dos páginas webs para las dos noticias principales (news1.html y news2.html).
+## V1.9
+ - Realización e implementación de las páginas de web de anunciantes tanto horizontal como vertical. Simplemente, contienen una imagen con un enlace y el tamaño adecuado y se cambian cada 5 segundos.
+ - Realización del archivo rss.xml.
+## V2.0
+ - Realización de la adaptación de las imagenes a dos tamaños adecuados: 
+  
+   **imgmid:** Para mostrar las imagenes en la página principal.
+   
+   **imgbig:** Para mostrar las imagenes en un tamaño mayor en una ventana modal.
+   
+ - Pasadas las imagenes a través de un compresor de imagenes para optimizar el tamaño. 
+ - Añadido las etiquetas open graph correspondientes para compartir la página web.
+   
+## V2.1
+ - Implementación de una ventana modal para visualizar las imagenes de las noticias al pulsar sobre ellas. La ventana modal contiene un pequeño evento en javascript que al pulsar la imagen de una noticia, leemos su ID y sabiendo su ID cargamos su imagen de tamaño mayor.
+ 
+## V2.2
+ - Añadida información al usuario de que no hay más noticias disponibles.
+ 
+ 
